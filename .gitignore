@@ -1,18 +1,66 @@
+# ==========================================
+# 1. Operating System Files (System Specific)
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# 2. Editors & IDEs
+# ==========================================
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite
+
+# ==========================================
+# 3. Language & Dependency Managers
+# ==========================================
+# Node.js (JavaScript / TypeScript)
 node_modules/
-dist/
-
-# Local environment files
-.env
-.env.*
-!.env.example
-
-# Logs
 npm-debug.log*
 yarn-debug.log*
-pnpm-debug.log*
+yarn-error.log*
+.pnpm-store/
 
-# OS and editor files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Java / Maven / Gradle
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+
+# ==========================================
+# 4. Security & Environment Variables
+# ==========================================
+# NEVER commit credentials, API keys, or secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
