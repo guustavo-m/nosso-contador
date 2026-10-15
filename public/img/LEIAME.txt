@@ -1,0 +1,3 @@
+Coloque aqui as fotos do casal (.jpg, .png, .webp).
+Depois liste os nomes dos arquivos em src/config.js, no array "photos".
+Dica: redimensione para ~1200px de altura para o site carregar rápido.
